@@ -1,3 +1,6 @@
 deploy/.terraform
 deploy/*.tfstate
 deploy/*.tfstate.backup
+global/.terraform
+global/*.tfstate
+global/*.tfstate.backup
