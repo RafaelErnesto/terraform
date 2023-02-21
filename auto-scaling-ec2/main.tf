@@ -1,14 +1,14 @@
 module "autoscaling" {
-    source = "./modules/autoscaling"
-    namespace = var.namespace
+  source = "./modules/autoscaling"
+  namespace = var.namespace
 }
 
 module "networking" {
-    source = "./module/networking"
-    namespace = var.namespace
+  source = "./module/networking"
+  namespace = var.namespace
 }
 
 module "database" {
-    source = "./module/database"
-    namespace = var.namespace
+  source = "./module/database"
+  namespace = var.namespace
 }
