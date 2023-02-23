@@ -11,4 +11,7 @@ module "networking" {
 module "database" {
   source = "./module/database"
   namespace = var.namespace
+
+  vpc = module.networking.vpc
+  sg = module.networking.sg
 }
